@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Tikiva — Tickets e IVA en orden</title>
+  <meta name="description" content="Tikiva: controla gastos de autónomos. Escanea tickets, guarda justificantes y prepara el cierre trimestral para tu gestoría." />
+  <style>
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;margin:0;color:#111}
+    .wrap{max-width:980px;margin:0 auto;padding:48px 20px}
+    .badge{display:inline-block;padding:6px 10px;border-radius:999px;background:#e6fffb;color:#006b63;font-weight:600;font-size:12px}
+    h1{font-size:44px;line-height:1.05;margin:14px 0}
+    p{font-size:18px;line-height:1.5;color:#333}
+    .cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px}
+    a.btn{display:inline-block;padding:12px 16px;border-radius:10px;text-decoration:none;font-weight:700}
+    .primary{background:#00B3A4;color:#fff}
+    .ghost{border:1px solid #ddd;color:#111}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;margin-top:28px}
+    .card{border:1px solid #eee;border-radius:14px;padding:16px}
+    .card h3{margin:0 0 6px 0}
+    .note{margin-top:28px;font-size:13px;color:#555}
+    footer{margin-top:46px;padding-top:16px;border-top:1px solid #eee;font-size:13px;color:#666}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <span class="badge">Beta</span>
+    <h1>Tikiva: tus tickets en orden y tu IVA controlado</h1>
+    <p>Para autónomos en España. Escanea tickets, guarda justificantes y prepara el cierre trimestral para tu gestoría en minutos.</p>
+
+    <div class="cta">
+      <a class="btn primary" href="#waitlist">Pedir acceso</a>
+      <a class="btn ghost" href="#precios">Ver precios</a>
+    </div>
+
+    <div class="grid">
+      <div class="card">
+        <h3>Cierre trimestral rápido</h3>
+        <p>Exporta un paquete para tu gestoría (PDF/Excel/CSV) cuando toque.</p>
+      </div>
+      <div class="card">
+        <h3>IVA y categorías</h3>
+        <p>Organiza gastos por categoría y revisa el IVA detectado.</p>
+      </div>
+      <div class="card">
+        <h3>Buscador de justificantes</h3>
+        <p>Encuentra cualquier ticket por fecha, importe o comercio.</p>
+      </div>
+    </div>
+
+    <h2 id="precios" style="margin-top:40px">Precios</h2>
+    <div class="grid">
+      <div class="card"><h3>Free</h3><p><b>0€</b> · 15 documentos/mes<br>Historial 30 días</p></div>
+      <div class="card"><h3>Pro</h3><p><b>6,90€</b> · 300 documentos/mes<br>Export para gestoría</p></div>
+      <div class="card"><h3>Plus</h3><p><b>12,90€</b> · 600 documentos/mes<br>Prioridad soporte</p></div>
+    </div>
+
+    <p class="note">
+      Precios + IVA. Factura automática. Normalmente deducible como gasto de actividad (consulta con tu gestor).
+      <br>1 documento = 1 foto (JPG/PNG/HEIC) o 1 PDF de 1 página. Máx. 10 MB.
+      <br><b>No somos un servicio oficial.</b>
+    </p>
+
+    <h2 id="waitlist" style="margin-top:34px">Acceso beta</h2>
+    <p>Déjanos tu email y te avisamos cuando abras la beta.</p>
+    <form>
+      <input type="email" placeholder="tu@email.com" style="padding:12px;border-radius:10px;border:1px solid #ddd;min-width:260px" />
+      <button type="button" style="padding:12px 16px;border-radius:10px;border:0;background:#111;color:#fff;font-weight:700;margin-left:8px">
+        Avisadme
+      </button>
+    </form>
+
+    <footer>
+      © Tikiva · Aviso legal · Privacidad · Cookies
+    </footer>
+  </div>
+</body>
+</html>
